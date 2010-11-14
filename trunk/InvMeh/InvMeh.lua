@@ -9,15 +9,15 @@ function InvMeh()
 		elseif msg == 'off' then
 			InvMeh_Enabled = "disabled";
 		elseif msg == '' then
-			print("InvMeh by Undone and Elunora");
-			print("/im on to Enable");
-			print("/im off to Disable");
-			print("/im <password> to set invite password.");
+			print("|cffffff00".."InvMeh by Undone and Elunora".."|r");
+			print("|cffffff00".."/im on to Enable".."|r");
+			print("|cffffff00".."/im off to Disable".."|r");
+			print("|cffffff00".."/im <password> to set invite password.".."|r");
 		else
 			InvMeh_Password = msg;
 		end
-		print("InvMeh is "..InvMeh_Enabled);
-		if (InvMeh_Enabled == "enabled") then print("Password is "..InvMeh_Password); end
+		print("|cffffff00".."InvMeh is "..InvMeh_Enabled.."|r");
+		if (InvMeh_Enabled == "enabled") then print("|cffffff00".."Password is "..InvMeh_Password.."|r"); end
 	end
 
 	SlashCmdList["INVMEH"] = handler; -- Also a valid assignment strategy
@@ -29,7 +29,7 @@ function InvMeh()
 			end
 			InviteUnit(arg2);
 		else
-			print("something went wrong "..GetNumPartyMembers().." "..UnitExists("party1").." "..UnitExists("party1"));
+			print("|cffffff00".."Something went wrong "..GetNumPartyMembers().." "..UnitExists("party1").." "..UnitExists("party1").."|r");
 		end
 	end
 
