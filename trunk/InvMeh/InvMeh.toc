@@ -1,0 +1,8 @@
+## Interface: 40000
+## Title: InvMeh
+## Version: 0.0.2
+## Author: Undone and Elunora
+## Notes: Allows players to invite themselves to your party by whispering a customizable code word default: invmeh
+## Dependencies:
+InvMeh.lua
+InvMeh.xml
