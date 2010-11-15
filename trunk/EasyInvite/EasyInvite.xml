@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
+..\..\FrameXML\UI.xsd" > 
+<Frame name="EasyInviteFrame" toplevel="true" parent="UIParent" movable="true" hidden="false">
+	<Scripts>
+		<OnLoad>
+			EasyInvite();
+		</OnLoad>
+	</Scripts>
+</Frame>
+</Ui> 
