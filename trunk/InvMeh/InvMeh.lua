@@ -23,7 +23,7 @@ function InvMeh()
 	SlashCmdList["INVMEH"] = handler; -- Also a valid assignment strategy
 
 	local function InvMeh_OnEvent(self,event,arg1,arg2) 
-		if (not UnitExists("party1") or IsPartyLeader("player") and arg1:lower():match(InvMeh_Password) and InvMeh_Enabled == "enabled") then
+		if ((not UnitExists("party1") or IsPartyLeader("player")) and arg1:lower():match(InvMeh_Password) and InvMeh_Enabled == "enabled") then
 			if (GetNumPartyMembers() == 4) then 
 				ConvertToRaid();
 			end
