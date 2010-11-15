@@ -9,7 +9,7 @@ function EasyInvite()
 		elseif msg == 'off' then
 			EasyInvite_Enabled = "disabled";
 		elseif msg == '' then
-			print("|cffffff00".."EasyInvite by Undone and Elunora".."|r");
+			print("|cffffff00".."EasyInvite by".."|r".."|cffa37748".." Undone".."|r".."|cffffff00".." and ".."|r".."|cffa37748".."Elunora".."|r");
 			print("|cffffff00".."/ei on to Enable".."|r");
 			print("|cffffff00".."/ei off to Disable".."|r");
 			print("|cffffff00".."/ei <password> to set invite password.".."|r");
