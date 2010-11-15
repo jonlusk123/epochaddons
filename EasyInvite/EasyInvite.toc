@@ -1,0 +1,8 @@
+## Interface: 40000
+## Title: EasyInvite
+## Version: 0.1.1
+## Author: Undone and Elunora
+## Notes: Allows players to invite themselves to your party by whispering a customizable code word default: invmeh
+## Dependencies:
+EasyInvite.lua
+EasyInvite.xml
