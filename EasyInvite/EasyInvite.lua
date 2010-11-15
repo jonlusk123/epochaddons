@@ -1,9 +1,9 @@
-EasyInvite_Enabled = "disabled"; --"enabled"; --"disabled";
-EasyInvite_Password = "addme";
+EasyInvite_Enabled = "disabled"; --"enabled";
 
 function EasyInvite() 
 	SLASH_EASYINVITE1, SLASH_EASYINVITE2 = '/ei', '/easyinvite';
 	local function handler(msg, editbox)
+		if (EasyInvite_Password == nil) then EasyInvite_Password = "addme"; end
 		if msg == 'on' then
 			EasyInvite_Enabled = "enabled";
 		elseif msg == 'off' then
