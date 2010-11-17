@@ -24,7 +24,8 @@ function EasyInvite()
 	SlashCmdList["EASYINVITE"] = handler; -- Also a valid assignment strategy
 
 	local function EasyInvite_OnEvent(self,event,arg1,arg2) 
-		if ((not UnitExists("party1") or IsPartyLeader("player")) and (arg1:lower():match(EasyInvite_Password)) and (EasyInvite_Enabled == "Enabled")) then
+		--if ((not UnitExists("party1") or IsPartyLeader("player")) and (arg1:lower():match(EasyInvite_Password)) and (EasyInvite_Enabled == "Enabled")) then
+		if (arg1:lower():match(EasyInvite_Password) and (EasyInvite_Enabled == "Enabled")) then
 			if (GetNumPartyMembers() == 4) then 
 				ConvertToRaid();
 			end
