@@ -3,7 +3,7 @@
 ## Version: 0.1.3
 ## Author: Undone and Elunora
 ## Notes: Allows players to invite themselves to your party by whispering a customizable code word default: addme
-## SavedVariables: EasyInvite_Password
+## SavedVariables: EasyInvite_Password, EasyInvite_Assist_Password, EasyInvite_Enabled, EasyInvite_Assist_Enabled
 ## Dependencies:
 EasyInvite.lua
 EasyInvite.xml
